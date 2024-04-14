@@ -1,5 +1,5 @@
 # The name of the project.
-name: multiverse-ts
+name: sc-generator-api
 # The region where the project is deployed.
 region: us-east-1
 # The version of the Genezio YAML configuration to parse.
@@ -45,3 +45,4 @@ frontend:
     deploy:
       - npm run install-prod-sdk
       - npm install
+  subdomain: sc-generator-api
